@@ -1,0 +1,42 @@
+# Unreal Engine build files
+Binaries/
+Build/
+Intermediate/
+DerivedDataCache/
+Saved/
+
+# Visual Studio
+.vs/
+*.sln
+*.slnx
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# Backup files
+Backup/
+*.bak
+*.backup
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Cache files
+*.log
+*.cache
+
+# Screenshots and temporary files
+Screenshot*.png
+UpgradeLog.htm
+
+# Agent cache
+.agent_cache/
