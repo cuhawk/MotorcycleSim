@@ -16,10 +16,10 @@ Unreal Engine 5.8 motorcycle simulation project. Currently in early prototyping 
 
 ```powershell
 # Editor build (via UBT, from project root)
-& "C:\Program Files\Epic Games\UE_5.8\Engine\Build\BatchFiles\Build.bat" MotorcycleSimEditor Win64 Development -Project="C:\Users\soura\Documents\MotorcycleSim\MotorcycleSim.uproject" -WaitMutex
+& "C:\Program Files\Epic Games\UE_5.8\Engine\Build\BatchFiles\Build.bat" MotorcycleSimEditor Win64 Development -Project="<REPO_ROOT>\MotorcycleSim.uproject" -WaitMutex
 
 # Game build
-& "C:\Program Files\Epic Games\UE_5.8\Engine\Build\BatchFiles\Build.bat" MotorcycleSim Win64 Development -Project="C:\Users\soura\Documents\MotorcycleSim\MotorcycleSim.uproject" -WaitMutex
+& "C:\Program Files\Epic Games\UE_5.8\Engine\Build\BatchFiles\Build.bat" MotorcycleSim Win64 Development -Project="<REPO_ROOT>\MotorcycleSim.uproject" -WaitMutex
 ```
 
 Or open `MotorcycleSim.sln` / `MotorcycleSim.slnx` in Visual Studio / Rider and build from the IDE. The `.slnx` is the newer format; the legacy `.sln` in `Backup\` is an old copy.
